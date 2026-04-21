@@ -5,7 +5,7 @@ python -m venv venv
 .\venv\Scripts\activate
 
 # 필요한 페키지 설치
-pip install fastapi uvicorn sqlalchemy psycopg2-binary python-jose jinja2 python-multipart
+pip install fastapi uvicorn sqlalchemy psycopg2-binary python-jose jinja2 python-multipart # 주석달기
 
 # app 시작하기 
 uvicorn main:app --reload
